@@ -1,6 +1,6 @@
 # CareerPlug Coding Challenge
 
-This is the CareerPlug coding challenge. Bellow you will find a set of instructions on how to complete and submit the project. If you have any questions at all please submit an issue or contact us directly!
+This is the CareerPlug coding challenge. Bellow you will find a set of instructions on how to complete and submit the project. We ask that you spend no longer than four hours working on the challenge. If you have any questions at all please submit an issue or contact us directly!
 
 ## Introduction
 
