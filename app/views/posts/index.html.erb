@@ -1,0 +1,17 @@
+
+<%= form_tag(posts_path, method: :get) do %>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag 'Search', name: nil %>
+<% end %>
+
+<% @posts.each do |post|%>
+    <%= content_tag :div, class: "blog_title" do -%>
+        <%= post.title %>
+    <% end -%>
+    <%= content_tag :div, class: "blog_body" do -%>
+        <%= post.body %>
+    <% end -%>
+    <div>
+        <%= link_to "comments (#{post.comments.count})", post %>
+    </div>
+<% end %>

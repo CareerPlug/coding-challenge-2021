@@ -1,0 +1,17 @@
+<h1 class="blog_title"><%= @post.title %></h1>
+<div>
+    <p><%= @post.created_at.strftime("%B %d %Y, %l:%M%P") %></p>
+    <p><%= @post.body %></p>
+    <%= link_to "All Blogs", posts_path, :class => 'btn-smstroke' %>
+    <%= link_to "Delete", 
+        post_path(@post), 
+        method: :delete, 
+        data: { confirm: "Are you sure?"}, 
+        :class => 'btn-smstroke' 
+    %>
+</div>
+<hr />
+<h2>Comments</h2>
+
+<%= render @post.comments %>
+<%= render 'comments/form', post: @post %>
