@@ -50,7 +50,7 @@ Scaffolding can be a very useful tool when creating a Rails project. However, fo
 
 ## Using Javascript
 
-While not required for this project - Rails offers the ability to create a new project with a standard webpack config for React, Elm, Angular, StimululsJS, and Vue.js. This project has been created with configuration for using [StimululsJS](https://stimulus.hotwire.dev/). If you would like to use another framework for Javascript in this project that is perfectly fine. However, you will be responsible for configuring that in the project.
+While not required for this project - Rails offers the ability to create a new project with a standard webpack config for React, Elm, Angular, StimululsJS, and Vue.js. This project has been created with configuration for using [StimulusJS](https://stimulus.hotwire.dev/). If you would like to use another framework for Javascript in this project that is perfectly fine. However, you will be responsible for configuring that in the project.
 
 You will also need [Node.js](https://nodejs.org) to take advantage of the Javascript features. If you do not have Node installed already, you can download the installer for your operating system [here](https://nodejs.org/en/download/).
 
