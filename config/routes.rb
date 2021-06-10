@@ -1,3 +1,11 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root "posts#index"
+
+  # basic CRUD endpoints and other features for POSTS, with Comments nested
+  resources :posts do
+    resources :comments
+  end
+
+  # including resources for comments for Update/Delete
+  resources :comments
 end

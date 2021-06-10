@@ -11,6 +11,12 @@
   </head>
 
   <body>
+  <section class="header">
+    <h3 class="title">Career Plug</h3>
+    <%= link_to "+ New Post", new_post_path, :class => 'btn-bgstroke' %>
+  </section>
+  <section class="narrow_body">
     <%= yield %>
+  </section>
   </body>
 </html>
